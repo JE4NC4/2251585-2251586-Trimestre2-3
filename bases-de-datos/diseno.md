@@ -11,9 +11,10 @@ description: Modelo Entidad Relación
 ### Entidad Fuerte
 
 ```sql
-create table tipo_documento(
-    sigla varchar(10),
-    estado boolean,
+create table tipo_documento
+(
+    sigla  varchar(10),
+    estado boolean NOT NULL,
     primary key (sigla)
 );
 ```
