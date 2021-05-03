@@ -4,7 +4,14 @@
 
 ## Bases de datos
 
-* [Diseño](bases-de-datos/diseno.md)
+* [Diseño](bases-de-datos/diseno/README.md)
+  * [Diseño de bases de datos](bases-de-datos/diseno/diseno-de-bases-de-datos.md)
+  * [Tipos de Entidades](bases-de-datos/diseno/tipos-de-entidades.md)
+  * [Tipos de llaves](bases-de-datos/diseno/tipos-de-llaves.md)
+  * [Relaciones](bases-de-datos/diseno/relaciones/README.md)
+    * [uno a uno](bases-de-datos/diseno/relaciones/uno-a-uno.md)
+    * [uno a mucho](bases-de-datos/diseno/relaciones/uno-a-mucho.md)
+    * [muchos a mucho](bases-de-datos/diseno/relaciones/muchos-a-mucho.md)
 * [DDL](bases-de-datos/ddl.md)
 * [DML](bases-de-datos/dml.md)
 

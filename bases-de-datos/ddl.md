@@ -4,6 +4,8 @@ description: Data Definition Lenguaje (lenguaje de definición de datos)
 
 # DDL
 
+
+
 ```text
 show databases;
 ```
