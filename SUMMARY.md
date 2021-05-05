@@ -9,9 +9,9 @@
   * [Tipos de Entidades](bases-de-datos/diseno/tipos-de-entidades.md)
   * [Tipos de llaves](bases-de-datos/diseno/tipos-de-llaves.md)
   * [Relaciones](bases-de-datos/diseno/relaciones/README.md)
-    * [uno a uno](bases-de-datos/diseno/relaciones/uno-a-uno.md)
-    * [uno a mucho](bases-de-datos/diseno/relaciones/uno-a-mucho.md)
-    * [muchos a mucho](bases-de-datos/diseno/relaciones/muchos-a-mucho.md)
+    * [Uno a Uno](bases-de-datos/diseno/relaciones/uno-a-uno.md)
+    * [Uno a Muchos](bases-de-datos/diseno/relaciones/uno-a-mucho.md)
+    * [Muchos a Mucho](bases-de-datos/diseno/relaciones/muchos-a-mucho.md)
 * [DDL](bases-de-datos/ddl.md)
 * [DML](bases-de-datos/dml.md)
 

@@ -1,4 +1,4 @@
-# uno a uno
+# Uno a Uno
 
 ## Uno a uno NO IDENTIFICABLE
 
@@ -27,30 +27,27 @@ CREATE TABLE factura
 
 ## Uno a uno IDENTIFICABLE
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
 ```sql
-CREATE TABLE cliente
-(
-    tipo_documento   varchar(20)  NOT NULL,
-    numero_documento varchar(100) NOT NULL,
-    nombres          varchar(100) NOT NULL,
-    apellidos        varchar(100) NOT NULL,
-    CONSTRAINT pk_cliente
-        PRIMARY KEY (tipo_documento,
-                     numero_documento)
-);
+CREATE TABLE ejemplo04.cliente (
+  tipo_documento   varchar(20) NOT NULL, 
+  numero_documento varchar(50) NOT NULL, 
+  nombres          varchar(100) NOT NULL, 
+  apellidos        varchar(100) NOT NULL, 
+  estado           varchar(20) NOT NULL, 
+  PRIMARY KEY (tipo_documento, 
+  numero_documento));
 
-create table instructor
-(
-    tipo_documento    varchar(20)  NOT NULL,
-    numero_documento  varchar(100) NOT NULL,
-    estado_instructor varchar(10)  not null,
-    constraint pk_instructor primary key (tipo_documento, numero_documento),
-    constraint fk_cliente
-        foreign key (tipo_documento, numero_documento)
-            references cliente (tipo_documento, numero_documento)
-            on UPDATE CASCADE
-);
+CREATE TABLE ejemplo04.instructor (
+  tipo_documento    varchar(20) NOT NULL, 
+  numero_documento  varchar(50) NOT NULL, 
+  estado_instructor varchar(20) NOT NULL, 
+  PRIMARY KEY (tipo_documento, 
+  numero_documento));
+ALTER TABLE ejemplo04.instructor ADD CONSTRAINT fk_cliente FOREIGN KEY (tipo_documento, numero_documento) REFERENCES ejemplo04.cliente (tipo_documento, numero_documento);
+
 ```
+
+Uno a Uno
 
