@@ -42,7 +42,23 @@ Son los atributos que se pueden considerara llaves primarias pero al estas en la
 
 una llave candidata que no paso a ser llave primaria, que puede afectar el negocio.
 
-## Modelo Entidad Relación
+### Llave foránea
+
+Es un un atributo o varios atributos que tiene una relación con una llave primaria.
+
+## Tipo de Modelos de Bases de datos
+
+![](../../.gitbook/assets/image%20%2817%29.png)
+
+![](../../.gitbook/assets/image%20%2821%29.png)
+
+### Modelo Objeto Relacional \(Modelo orientado a objetos, ORM\)
+
+![](../../.gitbook/assets/image%20%2832%29.png)
+
+### Modelo Entidad Relación
 
 Es unas de las representaciones graficas del modelo relacional.
+
+![](../../.gitbook/assets/image%20%2824%29.png)
 
